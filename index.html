@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Entrega - Labirinto</title>
+</head>
+<body>
+    <h1 id="msg">Jogo do Labirinto</h1>
+    
+
+    <div class="centro">
+        
+
+    
+
+            <div class='container' id='divboard'>        
+
+                    
+                    
+                    <!-- linha 1 -->
+                    <div class="linha">                
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 2 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl "></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 3 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 4 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 5 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 6 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 7 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 8 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 9 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false' ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        
+                        <div class="wallBl" data-dynamic='false' style="color:white">Saida</div>   
+                    </div> 
+
+                    <!-- linha 10 -->
+                    <div class="linha">                
+                        
+                        <div class='wall' data-dynamic='true' id='divtwo'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div>  
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        
+                    </div> 
+
+                    <!-- linha 11 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 12 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 13 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 14 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wallBl" data-dynamic='false'></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+
+                    <!-- linha 15 -->
+                    <div class="linha">
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div> 
+                        <div class="wall" data-dynamic='false'  ></div>  
+                    </div> 
+                
+                </div>    
+                    
+    </div>
+    
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
